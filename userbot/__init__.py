@@ -100,7 +100,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/ManusiaRakitan/Kampang-Bot.git")
+    "https://github.com/nishfu22/NF-Toxicbot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Kampang")
 
@@ -155,8 +155,8 @@ PM_PIC = os.environ.get(
 
 # untuk perintah .koalalive
 KAMPANG_TEKS_KUSTOM = os.environ.get(
-    "KAMPANG_TEKS_KUSTOM",
-    "Join Gaes @caritemanhidop")
+    "TOXIC_TEKS_KUSTOM",
+    "Join Gaes @kutipankitaa")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -399,7 +399,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [NF-TOXICBOT](https://github.com/nishfu22/NF-Toxicbot) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -413,7 +413,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded Modules: {}\n               \n🐨 **MODULE INFO KAMPANG** 🐨\n".format(
-                        "🐨BOT KAMPANG🐨 modules helper",
+                        "🗡NF-Toxicbot🗡 modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -421,22 +421,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "🐨BOT KAMPANG🐨 Helper",
+                    "🗡NF-Toxicbot🗡 Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "BOT KAMPANG",
+                    "TOXIC BOT",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/ManusiaRakitan/Kampang-Bot"),
+                                "https://github.com/nishfu22/NF-Toxicbot"),
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/mixiologist")],
+                                "https://t.me/HappyZgameBot")],
                     ],
                     link_preview=False,
                 )
