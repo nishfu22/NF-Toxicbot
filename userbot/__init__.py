@@ -151,7 +151,7 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER", ".")
 
 # untuk memberi media pada pmpermit
 PM_PIC = os.environ.get(
-    "https://telegra.ph/file/e659afa39091f773c67b2.jpg", None)
+    "https://telegra.ph/file/299af2dc9f9fb4145a8c9.jpg", None)
 
 # untuk perintah .koalalive
 KAMPANG_TEKS_KUSTOM = os.environ.get(
@@ -174,7 +174,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "KAMPANG-BOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "NF-Toxicbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "Kampang 4.6")
@@ -187,7 +187,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/57b5bff10eeeb5110c493.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/299af2dc9f9fb4145a8c9.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -326,7 +326,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🐨BOT KAMPANG🐨\nMENYALA ANJEEENG```")
+    await bot.send_message(BOTLOG_CHATID, "```NF-ToxicBot\nDAH NYALA NGENTOT```")
     return
 
 with bot:
