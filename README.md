@@ -17,10 +17,10 @@
 
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
-<h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">ToxicBot ░ 🐨</a></b></h2>
+<h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">ToxicBot ░  </a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/nishfu22/NF-ToxicBot"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="BOT-KAMPANG" width=400px></a>
+   <a href="https://github.com/nishfu22/NF-ToxicBot"><img src="https://telegra.ph/file/299af2dc9f9fb4145a8c9.jpg" alt="BOT-KAMPANG" width=400px></a>
    <br>
    <br>
 </p>
