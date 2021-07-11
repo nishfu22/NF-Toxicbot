@@ -42,10 +42,10 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**『⍟𝐊𝐎𝐍𝐓𝐎𝐋』**")
-    await pong.edit("**◆◈𝐊𝐀𝐌𝐏𝐀𝐍𝐆◈◆**")
-    await pong.edit("**𝐏𝐄𝐂𝐀𝐇𝐊𝐀𝐍 𝐁𝐈𝐉𝐈 𝐊𝐀𝐔 𝐀𝐒𝐔**")
-    await pong.edit("**☬𝐒𝐈𝐀𝐏 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 𝐌𝐄𝐍𝐔𝐌𝐁𝐔𝐊 𝐀𝐒𝐔☬**")
+    await pong.edit("**LU TOLOL**")
+    await pong.edit("**◆BEGOOOO◆**")
+    await pong.edit("**PECAHIN BIJI PELER LU SINI**")
+    await pong.edit("**☬MAU GUA PAKE??☬**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**✲ 𝙺𝙾𝙽𝚃𝙾𝙻 𝙼𝙴𝙻𝙴𝙳𝚄𝙶** "
@@ -59,11 +59,11 @@ async def pingme(pong):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**LU KONTOL**")
+    await typew.edit(f"**LU TOLOL**")
     sleep(3)
-    await typew.edit("`KONTOL KONTOL KONTOL!!!`")
+    await typew.edit("`GADA OTAK OTAK GAADA!!!`")
     sleep(3)
-    await typew.edit("`DASAR KEPALA KONTOL!!!`")
+    await typew.edit("`OTAK OTAK GADA KEPALA!!!`")
 # Owner @Si_Dian
 
 
@@ -71,10 +71,10 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
+    await typew.edit(f"**MAKAN REBUNG EH KECOLOK**")
     sleep(3)
     await typew.edit("`NIMBRUNG GOBLOKK!!!`")
-# Owner @Si_Dian
+# Owner @pachemild
 
 
 @register(outgoing=True, pattern='^ass(?: |$)(.*)')
@@ -84,7 +84,7 @@ async def typewriter(typew):
     await typew.edit(f"**нαι αρα кαвαя ㋛**")
     sleep(3)
     await typew.edit("`السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
-# Owner @manusiarakitann
+# Owner @pachemild
 
 
 @register(outgoing=True, pattern='^wss(?: |$)(.*)')
@@ -94,7 +94,7 @@ async def typewriter(typew):
     await typew.edit(f"**`Jawab Salam Dulu Gaes`**")
     sleep(3)
     await typew.edit("`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
-# Owner @manusiarakitann
+# Owner @pachemild
 
 
 @register(outgoing=True, pattern='^.usange(?: |$)(.*)')
@@ -103,7 +103,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Getting Information...`")
     sleep(1)
-    await typew.edit("**Kampang Usage 🐨**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n" f"-> `Penggunaan Kealayan ` **{ALIVE_NAME}**:\n" f" •**0 jam - " f"0 menit - 0%**" "\n ◐━─━─━─━─━──━─━─━─━─━◐\n" "-> `Sisa Alay Bulan Ini`:\n" f" •**9999 jam - 9999 menit " f"- 100%**\n" "╰━━━━━━━━━━━━━━━━━━━━╯"
+    await typew.edit("**Toxic Usage 🖕🖕**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n" f"-> `Penggunaan Kealayan ` **{ALIVE_NAME}**:\n" f" •**0 jam - " f"0 menit - 0%**" "\n ◐━─━─━─━─━──━─━─━─━─━◐\n" "-> `Sisa Alay Bulan Ini`:\n" f" •**9999 jam - 9999 menit " f"- 100%**\n" "╰━━━━━━━━━━━━━━━━━━━━╯"
                      )
 # @mixiologist
 
