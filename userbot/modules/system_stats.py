@@ -165,7 +165,7 @@ async def bot_ver(event):
 
         await event.edit(
             "`╭►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╮\n "
-            "` Bot-Kampang🐨 Version: \n "
+            "` NF-ToxicBot Version: \n "
             f"{verout}"
             "` \n"
             "   Revision: "
@@ -233,7 +233,7 @@ async def amireallyalive(alive):
     output = (
         f"**┣•{KAMPANG_TEKS_KUSTOM}•┫\n"
         f"   **╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"         **☬ 𝐁𝐎𝐓 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 ☬** \n\n"
+        f"         **☬ ŃF-ȚÖXĪĆBÖŤ ☬** \n\n"
         f"   **╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"•➣ 🐨 **ƙąɱ℘ąŋɠ** :    `{DEFAULTUSER}` \n"
         f"•➣ 👥 **Uʂҽɾɳαɱҽ** :   @{user.username} \n"
@@ -242,9 +242,9 @@ async def amireallyalive(alive):
         f"•➣ 🌐 **Vҽɾʂι Kαɱραɳɠ**:    `{BOT_VER}` \n"
         f"•➣ 🗃️ **Mσԃυʅҽ**       :       `{len(modules)}` \n\n"
         f"**┏▼━━━━━━━━━━━━━━━━━▼┓**\n"
-        f"    🎉 **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃.   :** [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot)\n"
-        f"   🐨 **Grup Official.: ** [Pencet Asu](https://t.me/caritemanhidop)\n"
-        f"    ☬ **ѕυρρσят ву.   :** [KOALA 🐨](https://t.me/manusiarakitann)\n"
+        f"    🎉 **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃.   :** [TOXIC BOT](https://github.com/nishfu22/NF-Toxicbot)\n"
+        f"   🐨 **Grup Official.: ** [Pencet Asu](https://t.me/kutipankitaa)\n"
+        f"    ☬ **ѕυρρσят ву.   :** [KANG FORK](https://t.me/pachemild)\n"
         f"┗▲━━━━━━━━━━━━━━━━━▲┛")
 
     if ALIVE_LOGO:
