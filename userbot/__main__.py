@@ -27,7 +27,7 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"BOT-KAMPANG 🐨 V{BOT_VER} [MENYALA ANJEEEENG 🔥]")
+    f"NF-ToxicBot 🐨 V{BOT_VER} [DAH NYALA YA NGENTOT 🖕🖕]")
 
 
 if len(argv) not in (1, 3, 4):
