@@ -9,7 +9,7 @@ from userbot import ALIVE_LOGO, ALIVE_NAME, KAMPANG_TEKS_KUSTOM, BOT_VER, CMD_HE
 from userbot.events import register
 DEFAULTUSER = ALIVE_NAME or "kampang"
 KOALA_PIC = ALIVE_LOGO or None
-KAMPANGTEKS = KAMPANG_TEKS_KUSTOM or "🐨 𝐁𝐎𝐓-𝐊𝐀𝐌𝐏𝐀𝐍𝐆 MENYALA ANJENG 🐨"
+KAMPANGTEKS = KAMPANG_TEKS_KUSTOM or "NF - TOXICBOT DAH NYALA NGENTOT"
 
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s",
@@ -31,7 +31,7 @@ async def amireallyalive(alive):
         bot_kampang += f"**Pყƚԋσɳ  :** `{python_version()}\n`"
         bot_kampang += f"**Uptime :** `{uptime}\n`"
         bot_kampang += f"**ƙąɱ℘ąŋɠ:** {DEFAULTUSER}\n"
-        bot_kampang += f" **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot)\n🐨 **Grup Official: **[Pencet Asu](t.me/caritemanhidop)\n☬ **ѕυρρσят ву:** [KOALA 🐨](t.me/manusiarakitann)\n"
+        bot_kampang += f" **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [TOXIC BOT](https://github.com/nishfu22/NF-Toxicbot)\n🐨 **Grup Official: **[Pencet Asu](t.me/kutipankitaa)\n☬ **ѕυρρσят ву:** [NISHFU IM](t.me/pachemild)\n"
         bot_kampang += f"**┗▲━━━━━━━━━━━━━━━━━━━▲┛**"
         await bot.send_file(
             alive.chat_id,
